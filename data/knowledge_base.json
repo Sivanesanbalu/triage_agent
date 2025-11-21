@@ -1,0 +1,72 @@
+[
+  {
+    "id": "KB-101",
+    "title": "Checkout Error 500 on Mobile",
+    "category": "Bug",
+    "symptoms": ["error 500", "mobile", "checkout", "payment failure"],
+    "resolution": "Escalate to payments team; link incident INC-2023-09-10"
+  },
+  {
+    "id": "KB-102",
+    "title": "Password Reset Link Expired",
+    "category": "Login",
+    "symptoms": ["password reset", "link expired", "cant login", "email"],
+    "resolution": "Ask user to clear cache and request a new link. If persists, check email latency."
+  },
+  {
+    "id": "KB-103",
+    "title": "Slow Dashboard Loading",
+    "category": "Performance",
+    "symptoms": ["slow", "dashboard", "loading", "spinner", "timeout"],
+    "resolution": "Check AWS Status page. Known latency in US-East-1. Advise user to retry in 10 mins."
+  },
+  {
+    "id": "KB-104",
+    "title": "Where to find VAT Invoices",
+    "category": "Billing",
+    "symptoms": ["invoice", "vat", "receipt", "billing", "download"],
+    "resolution": "Direct user to Settings -> Billing -> History. Attach 'How to download invoices' PDF."
+  },
+  {
+    "id": "KB-105",
+    "title": "API Rate Limit Exceeded",
+    "category": "Question/How-To",
+    "symptoms": ["429", "rate limit", "api error", "too many requests"],
+    "resolution": "Explain tier limits. Suggest upgrading to Pro plan for higher throughput."
+  },
+  {
+    "id": "KB-106",
+    "title": "Android App Crash on Splash Screen",
+    "category": "Bug",
+    "symptoms": ["crash", "android", "splash screen", "startup", "v2.4"],
+    "resolution": "Known bug in v2.4. Ask user to update to v2.4.1 via Play Store."
+  },
+  {
+    "id": "KB-107",
+    "title": "Subscription Upgrade Failed",
+    "category": "Billing",
+    "symptoms": ["upgrade", "subscription", "card declined", "payment"],
+    "resolution": "Check Stripe logs for decline reason. Usually insufficient funds or bank block."
+  },
+  {
+    "id": "KB-108",
+    "title": "Two-Factor Auth SMS not arriving",
+    "category": "Login",
+    "symptoms": ["2fa", "sms", "code", "otp", "login"],
+    "resolution": "Verify phone number format. Suggest using Authenticator App instead of SMS."
+  },
+  {
+    "id": "KB-109",
+    "title": "Feature Request: Dark Mode",
+    "category": "Question/How-To",
+    "symptoms": ["dark mode", "theme", "ui", "feature"],
+    "resolution": "Tag as Feature Request. Inform user it is on roadmap for Q4."
+  },
+  {
+    "id": "KB-110",
+    "title": "Data Export CSV is Empty",
+    "category": "Bug",
+    "symptoms": ["csv", "export", "empty file", "0 bytes", "data"],
+    "resolution": "Escalate to Data Engineering. Check queue worker logs."
+  }
+]
