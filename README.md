@@ -90,21 +90,25 @@ Expected example response:
 ## Project Structure
 
 ```
-app/
-  main.py
-  agent.py
-  kb_tool.py
-  schemas.py
-data/
-  knowledge_base.json
-tests/
-  test_api.py
-Dockerfile
-requirements.txt
-README.md
+support-ticket-triage/
+│
+├── app/
+│   ├── main.py           # FastAPI application entry point
+│   ├── agent.py          # Core triage agent logic (LLM + rules)
+│   ├── kb_tool.py        # Knowledge-base search tool
+│   └── schemas.py        # Pydantic request/response models
+│
+├── data/
+│   └── knowledge_base.json   # Sample KB with known issues
+│
+├── tests/
+│   └── test_api.py       # Basic API tests for /triage endpoint
+│
+├── Dockerfile            # Container setup for deployment
+├── requirements.txt      # Python dependencies
+└── README.md             # Project documentation
 ```
 
----
 
 ## How the Agent Works
 
