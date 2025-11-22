@@ -36,8 +36,8 @@ pip install -r requirements.txt
 Create a `.env` file in the root directory and add:
 
 ```
-OPENAI_API_KEY=dummy_key
-LLM_MODEL_NAME=gpt-4o-mini
+GEMINI_API_KEY=dummy_keys
+LLM_MODEL_NAME=gemini 2.0 mini
 ```
 
 The current implementation uses rule-based logic, but the structure is prepared so a real LLM can be integrated later.
