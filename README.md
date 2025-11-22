@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 ---
 
-## 3. Environment Variables
+## 3. Environment Variables (optional)
 
 Create a `.env` file in the root directory and add:
 
@@ -43,6 +43,7 @@ LLM_MODEL_NAME=gpt-4o-mini
 The current implementation uses rule-based logic, but the structure is prepared so a real LLM can be integrated later.
 
 ---
+
 
 ## 4. Running the Server
 
