@@ -94,20 +94,20 @@ Expected example response:
 support-ticket-triage/
 │
 ├── app/
-│   ├── main.py           # FastAPI application entry point
-│   ├── agent.py          # Core triage agent logic (LLM + rules)
-│   ├── kb_tool.py        # Knowledge-base search tool
-│   └── schemas.py        # Pydantic request/response models
+│   ├── main.py           
+│   ├── agent.py          
+│   ├── kb_tool.py       
+│   └── schemas.py      
 │
 ├── data/
-│   └── knowledge_base.json   # Sample KB with known issues
+│   └── knowledge_base.json  
 │
 ├── tests/
-│   └── test_api.py       # Basic API tests for /triage endpoint
+│   └── test_api.py     
 │
-├── Dockerfile            # Container setup for deployment
-├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation
+├── Dockerfile          
+├── requirements.txt    
+└── README.md            
 ```
 
 
