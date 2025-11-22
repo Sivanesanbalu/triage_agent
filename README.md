@@ -18,14 +18,14 @@ This project implements a FastAPI service that analyzes support ticket descripti
 
 Create and activate a virtual environment:
 
-```
-python3 -m venv venv
-source venv/bin/activate
+```bash
+python -m venv venv
+venv\Scripts\activate   # Windows
 ```
 
 Install the required dependencies:
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
